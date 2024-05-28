@@ -2,6 +2,7 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
         mavenCentral()
+        google()
     }
 }
 
@@ -29,3 +30,4 @@ rootProject.name = "kotlin-gradle-plugin-template"
 
 include(":example")
 includeBuild("plugin-build")
+include(":example2")
